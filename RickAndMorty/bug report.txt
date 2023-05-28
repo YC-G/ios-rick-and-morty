@@ -1,0 +1,1 @@
+1. No main storyboard file base name in info plist -> Delete main storyboard file base name in project Build settings info.plist.values
