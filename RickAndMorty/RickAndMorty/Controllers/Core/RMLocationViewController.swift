@@ -7,10 +7,12 @@
 
 import UIKit
 
-class RMLocationViewController: UIViewController {
+final class RMLocationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Locations"
+        self.view.backgroundColor = .systemBackground
 
         // Do any additional setup after loading the view.
     }

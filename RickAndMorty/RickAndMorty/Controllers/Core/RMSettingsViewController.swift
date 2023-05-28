@@ -7,11 +7,12 @@
 
 import UIKit
 
-class RMSettingsViewController: UIViewController {
+final class RMSettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Settings"
+        self.view.backgroundColor = .systemBackground
         // Do any additional setup after loading the view.
     }
     
